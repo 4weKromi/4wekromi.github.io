@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--https://github.com/4weKromi-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/general.css">
+<script>
+function readJsonFile(){
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", "repo.json", true);
+    rawFile.onreadystatechange = function (){
+        if(rawFile.readyState === 4){
+            if(rawFile.status === 200 || rawFile.status == 0){
+                var buffer = JSON.parse(rawFile.responseText);
+				jsondata(buffer);
+            }
+        }
+    }
+    rawFile.send(null);
+}
+function jsondata(data) {
+    var output = "";
+    var i;
+    for(i = 0; i < data.length; i++) {
+        if(data[i].display==1)
+            output +=' <a href=\"' + data[i].repolink + '\" target=\"_blank\" /><li>' + data[i].reponame + '</li></a>';
+    }
+    document.getElementById("repo").innerHTML = output;
+}
+</script>
+<title>4wekromi website</title>
+</head>
+<body onload="readJsonFile()">
+    <!--Navigate-->
+    <ul class="xul">
+		<li class="xli">
+            <a href="index.html"> Home </a>
+        </li>
+        <li class="xli">
+            <a href="about.html"> About </a>
+        </li>
+    </ul>
+    <!--End of Navigate-->
+    <div class="head"> Repo links : </div>
+        <ul class="xbox">
+            <div id="repo">. . . </div>
+        </ul>
+		</div>
+    <div class="content">
+    </div>
+</body>
+</html>

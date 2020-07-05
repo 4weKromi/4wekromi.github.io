@@ -24,7 +24,7 @@ function jsondata(data) {
     var i;
     for(i = 0; i < data.length; i++) {
         if(data[i].display==1)
-            output +=' <a href=\"' + data[i].repolink + '\" target=\"_blank\" /><li>' + data[i].reponame + '</li></a>';
+            output +='<li><a href=\"' + data[i].repolink + '\" target=\"_blank\" />' + data[i].reponame + '</a></li>';
     }
     document.getElementById("repo").innerHTML = output;
 }
@@ -41,7 +41,7 @@ function jsondata(data) {
         </li>
     </ul>
     <!--End of Navigate-->
-    <div class="head"> Repo links : </div>
+    <div class="head"> Github repo links : </div>
         <ul class="xbox">
             <div id="repo">. . . </div>
         </ul>

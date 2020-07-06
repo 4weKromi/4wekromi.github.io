@@ -2,51 +2,71 @@
 	{
 		"reponame": "text-parser",
 		"repolink": "https://github.com/4weKromi/text-parser",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/text-parser",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/text-parser"
 		},
 	{
 		"reponame": "InfoSafe",
 		"repolink": "https://github.com/4weKromi/InfoSafe",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/InfoSafe",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/InfoSafe"
 		},
 	{
 		"reponame": "ConsoleTrigoC",
 		"repolink": "https://github.com/4weKromi/ConsoleTrigoC",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/ConsoleTrigoC",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/ConsoleTrigoC"
 		},
 	{
 		"reponame": "bash-icmp-lan",
 		"repolink": "https://github.com/4weKromi/bash-icmp-lan",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/bash-icmp-lan",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/bash-icmp-lan"
 		},
 	{
 		"reponame": "TurboC",
 		"repolink": "https://github.com/4weKromi/TurboC",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/TurboC",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/TurboC"
 		},
 	{
 		"reponame": "hash-generator",
 		"repolink": "https://github.com/4weKromi/hash-generator",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/hash-generator",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/hash-generator"
 		},
 	{
 		"reponame": "ArduinoSamples",
 		"repolink": "https://github.com/4weKromi/ArduinoSamples",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/ArduinoSamples",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/ArduinoSamples"
 		},
 	{
 		"reponame": "IOT_Samples",
 		"repolink": "https://github.com/4weKromi/IoT_Samples",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/IOT_Samples",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/IOT_Samples"
 		},
 	{
 		"reponame": "Win32_API",
 		"repolink": "https://github.com/4weKromi/Win32_API",
-		"display": "0"
+		"display": "0",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/Win32_API",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/Win32_API"
 		},
 	{
 		"reponame": "web-init",
 		"repolink": "https://github.com/4weKromi/web-init",
-		"display": "1"
+		"display": "1",
+		"imgRepoSize": "https://img.shields.io/github/repo-size/4wekromi/web-init",
+		"imgCodeSize": "https://img.shields.io/github/languages/code-size/4wekromi/web-init"
 		}
 ]

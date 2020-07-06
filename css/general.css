@@ -72,3 +72,10 @@ color:red;
 	font-size: medium;
 	text-decoration:none;
 }
+.text-box{
+	/*margin: 10px;*/
+	text-align: center;
+	background-color:#000000;
+}
+
+

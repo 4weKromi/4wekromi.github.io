@@ -1,11 +1,52 @@
 [
-{"reponame": "text-parser","repolink": "https://github.com/4weKromi/text-parser","display": "1"},
-{"reponame": "InfoSafe","repolink": "https://github.com/4weKromi/InfoSafe","display": "1"},
-{"reponame": "ConsoleTrigoC","repolink": "https://github.com/4weKromi/ConsoleTrigoC","display": "1"},
-{"reponame": "bash-icmp-lan","repolink": "https://github.com/4weKromi/bash-icmp-lan","display": "1"},
-{"reponame": "TurboC","repolink": "https://github.com/4weKromi/TurboC","display": "1"},
-{"reponame": "hash-generator","repolink": "https://github.com/4weKromi/hash-generator","display": "1"},
-{"reponame": "ArduinoSamples","repolink": "https://github.com/4weKromi/ArduinoSamples","display": "1"},
-{"reponame": "IOT_Samples","repolink": "https://github.com/4weKromi/IoT_Samples","display": "1"},
-{"reponame": "Win32_API","repolink": "https://github.com/4weKromi/Win32_API","display": "1"}
+	{
+		"reponame": "text-parser",
+		"repolink": "https://github.com/4weKromi/text-parser",
+		"display": "1"
+		},
+	{
+		"reponame": "InfoSafe",
+		"repolink": "https://github.com/4weKromi/InfoSafe",
+		"display": "1"
+		},
+	{
+		"reponame": "ConsoleTrigoC",
+		"repolink": "https://github.com/4weKromi/ConsoleTrigoC",
+		"display": "1"
+		},
+	{
+		"reponame": "bash-icmp-lan",
+		"repolink": "https://github.com/4weKromi/bash-icmp-lan",
+		"display": "1"
+		},
+	{
+		"reponame": "TurboC",
+		"repolink": "https://github.com/4weKromi/TurboC",
+		"display": "1"
+		},
+	{
+		"reponame": "hash-generator",
+		"repolink": "https://github.com/4weKromi/hash-generator",
+		"display": "1"
+		},
+	{
+		"reponame": "ArduinoSamples",
+		"repolink": "https://github.com/4weKromi/ArduinoSamples",
+		"display": "1"
+		},
+	{
+		"reponame": "IOT_Samples",
+		"repolink": "https://github.com/4weKromi/IoT_Samples",
+		"display": "1"
+		},
+	{
+		"reponame": "Win32_API",
+		"repolink": "https://github.com/4weKromi/Win32_API",
+		"display": "0"
+		},
+	{
+		"reponame": "web-init",
+		"repolink": "https://github.com/4weKromi/web-init",
+		"display": "1"
+		}
 ]

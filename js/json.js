@@ -1,6 +1,6 @@
 function readJsonFile(page=0){
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "data/repo.json", true);
+    rawFile.open("GET", "res/repo.json", true);
     rawFile.onreadystatechange = function (){
         if(rawFile.readyState == 4){
             if(rawFile.status === 200 || rawFile.status === 0){

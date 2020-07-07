@@ -2,7 +2,6 @@
 
 /*Override defaults*/
 body{
-		margin:0;
 		padding:10px;
 		font-family:consolas;
 		background:#383838;
@@ -29,7 +28,6 @@ color:red;
 
 /* Buttons */
 .xbox{
-	/*background-color: #a8a8a8;*/
 	list-style-type: none;
 	padding:5px;
 }
@@ -56,7 +54,6 @@ color:red;
 	background-color:#000000;
 	overflow:hidden;
 	font-size:26px;
-	font-family:consolas;
 	border: 1px solid #000;
 	}
 
@@ -73,9 +70,6 @@ color:red;
 	text-decoration:none;
 }
 .text-box{
-	/*margin: 10px;*/
 	text-align: center;
 	background-color:#000000;
 }
-
-

@@ -3,35 +3,11 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> 4wekromi | Home </title>
 <link rel="stylesheet" type="text/css" href="css/general.css">
-<title>4wekromi webpage | Home</title>
-<script>
-function readJsonFile(){
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "repo.json", true);
-    rawFile.onreadystatechange = function (){
-        if(rawFile.readyState === 4){
-            if(rawFile.status === 200 || rawFile.status == 0){
-                var buffer = JSON.parse(rawFile.responseText);
-				jsondata(buffer);
-            }
-        }
-    }
-    rawFile.send(null);
-}
-function jsondata(data) {
-    var output = '<ul class=\"xbox\">';
-    var i;
-    for(i = 0; i < data.length; i++) {
-        if(data[i].display==1)
-            output +='<li><a href=\"' + data[i].repolink + '\" target=\"_blank\" />' + data[i].reponame + '</a></li>';
-    }
-	output +='</ul>';
-    document.getElementById("repo").innerHTML = output;
-}
-</script>
+<script src="js/json.js"></script>
 </head>
-<body onload="readJsonFile()">
+<body>
     <!--Navigate-->
     <ul class="xul">
 		<li class="xli">
@@ -46,5 +22,10 @@ function jsondata(data) {
     <div id="repo">. . . </div>
     <div class="content">
     </div>
+<script>
+	window.onload = function () {
+		readJsonFile(1);
+	}
+</script>
 </body>
 </html>

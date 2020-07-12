@@ -20,9 +20,8 @@ function checkRepoSize(){
 	document.getElementById("result").innerHTML = output;
 }
 
-/* Check github repo size */
+/* w3c validation of website */
 function checkW3cValidation(){
-	//<img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2F4wekromi.github.io%2F">
 	var output;
 	var addr = document.forms["websiteForm"]["link"].value;
 	output=addr+' : <img alt=\"W3C Validation\" src=\"https://img.shields.io/w3c-validation/html?targetUrl='+addr+'\" />';

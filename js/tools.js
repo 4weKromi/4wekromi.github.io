@@ -7,7 +7,7 @@ function checkRepoSize(){
 	var username = document.forms["repoForm"]["user"].value;
 	var reponame = document.forms["repoForm"]["repo"].value;
 	output=reponame+' size : <img alt=\"GitHub repo size\" src=\"https://img.shields.io/github/repo-size/'+username+'/'+reponame+'\"/>';
-	output+=' <br /><br /><a href=\"https://github.com/'+username+'/'+reponame+'\" target=\"_blank\"/> Open Link </a>';
+	output+=' <br /><br /><a href=\"https://github.com/'+username+'/'+reponame+'\" target=\"_blank\" > Open Link </a>';
 	document.getElementById("result").innerHTML = output;
 }
 
@@ -17,6 +17,6 @@ function checkW3cValidation(){
 	var output;
 	var addr = document.forms["websiteForm"]["link"].value;
 	output=addr+' : <img alt=\"W3C Validation\" src=\"https://img.shields.io/w3c-validation/html?targetUrl='+addr+'\" />';
-	output+= '<br /><br /><a href=\"'+addr+'\" target=\"_blank\"/> Open Link </a>';
+	output+= '<br /><br /><a href=\"'+addr+'\" target=\"_blank\" > Open Link </a>';
 	document.getElementById("result").innerHTML = output;
 }

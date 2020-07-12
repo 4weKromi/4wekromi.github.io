@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--https://github.com/4weKromi-->
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> 4wekromi | Tools </title>
+	<link rel="stylesheet" type="text/css" href="css/general.css" />
+	<script src="js/tools.js"></script>
+</head>
+<body>
+    <!--Navigate-->
+    <ul class="xul">
+		<li class="xli">
+            <a href="index.html"> Home </a>
+        </li>
+		<li class="xli">
+            <a href="tools.html"> Tools </a>
+        </li>
+        <li class="xli">
+            <a href="about.html"> About </a>
+        </li>
+    </ul>
+    <!--End of Navigate-->
+    <div class="content">
+		<br />
+		<div class="text-box">
+			<br />
+			<div id="result"></div>
+			<br />
+		</div>
+		<br />
+		<div class="head">Check Github Repo Size </div><br />
+		<form name="repoForm">
+			<div class="text-oblique">( https://github.com/4weKromi/4wekromi.github.io )</div><br />
+			Username : <input type="text" value="4wekromi" name="user"/><br /><br />
+			Reponame : <input type="text" value="4wekromi.github.io" name="repo"/><br /><br />
+			<input type="button" value="Check Size" onclick="checkRepoSize()"/>
+		</form>
+		<br /><br /><br /><br />
+		<div class="head">Check W3C validation</div><br />
+		<form name="websiteForm">
+			Web address : <input type="text" value="https://4wekromi.github.io" name="link" size="50px" /><br /><br />
+			<input type="button" value="Check Validation" onclick="checkW3cValidation()"/>
+		</form>
+		<br /><br />
+		<div class="text-box">
+			<br />
+			Powered by <a href="https://github.com/badges/shields"  target="_blank" />Shields</a>: Quality metadata badges for open source projects
+			<br /><br />
+		</div>
+	</div>
+</body>
+</html>

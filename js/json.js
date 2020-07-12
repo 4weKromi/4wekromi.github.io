@@ -1,3 +1,6 @@
+
+/* https://github.com/4weKromi */
+
 function readJsonFile(page=0){
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", "res/repo.json", true);

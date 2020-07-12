@@ -73,3 +73,7 @@ color:red;
 	text-align: center;
 	background-color:#000000;
 }
+.text-oblique{
+	font-style: oblique;
+	font-size: small;
+}

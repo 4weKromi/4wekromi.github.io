@@ -4,10 +4,19 @@
 /* Check github repo size */
 function checkRepoSize(){
 	var output;
-	var username = document.forms["repoForm"]["user"].value;
-	var reponame = document.forms["repoForm"]["repo"].value;
-	output=reponame+' size : <img alt=\"GitHub repo size\" src=\"https://img.shields.io/github/repo-size/'+username+'/'+reponame+'\"/>';
-	output+=' <br /><br /><a href=\"https://github.com/'+username+'/'+reponame+'\" target=\"_blank\" > Open Link </a>';
+	var urlFull = document.forms["repoForm"]["link"].value;
+	var urlShort;
+	if(urlFull.startsWith("http://")){
+		urlShort = urlFull.slice(7);
+		
+	} else if (urlFull.startsWith("https://")){
+		urlShort = urlFull.slice(8);
+	} else {
+		urlShort = document.forms["repoForm"]["link"].value;
+	}
+	var url_parts = urlShort.split('/');
+	output=url_parts[2]+' size : <img alt=\"GitHub repo size\" src=\"https://img.shields.io/github/repo-size/'+url_parts[1]+'/'+url_parts[2]+'\"/>';
+	output+=' <br /><br /><a href=\"https://github.com/'+url_parts[1]+'/'+url_parts[2]+'\" target=\"_blank\" > Open Link </a>';
 	document.getElementById("result").innerHTML = output;
 }
 
